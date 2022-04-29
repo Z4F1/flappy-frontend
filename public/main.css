@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.6em;
+    margin: 0;
+    padding: 20px 120px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: rgb(39, 39, 39);
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 20px;
+}
+
+li > div {
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+
+li > div > * {
+    margin: 10px 30px;
+}
